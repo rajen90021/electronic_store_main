@@ -35,7 +35,7 @@ public class BackendProjectForElectronicStoreApplication  implements CommandLine
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		System.out.println(passwordEncoder.encode("abc"));
-		
+		System.out.println("fine");
 		
 		
 		Role normal= new Role();
